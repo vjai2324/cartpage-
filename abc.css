@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+
+   
+  }
+/* here Start the Main (Body for web page) box */
+.mainBox1{
+    /* background-color: blue; */
+    margin: auto; 
+    width: 60%;
+}
+
+/* here Start Heading for products */
+.heading{
+
+    display: flex;   
+    justify-content: center;
+    margin-top: 20px;
+    margin: 50px 0px 10px 0px;
+    border-bottom:none ;
+    font-size: 25px;
+    border-radius: 9em;
+    border-bottom:2px solid gray ;
+    box-shadow: 0px 20px 0px #d9161633;
+   
+  
+
+}
+
+#r11{
+padding: 3px 30px;
+
+margin: 1%  0% 1% 13%;
+}
+#r12{
+width: 30em;
+text-align: right;
+margin: 1%  8% 1% 22%;
+}
+#r13{
+width: 30em;
+text-align: right;
+margin: 1%  15% 1% 0%;
+
+padding: 0px;
+
+}
+
+/* Here  */
+.mainBox2{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: .4fr 1fr 1fr 1fr;
+    column-gap: 3px;
+    border: 1px solid rgba(38, 138, 219, 0.11);
+    border-radius: 9px ;
+    margin: 60px 10px 10px 8em;
+    box-shadow: 0px 2px 10px #d9161633;
+    width: 80%;
+    /* height: 15em; */
+}
+.imgBox1 img{
+width: 12em;
+height: auto;
+border-radius: 9px ;
+
+}
+.imgBox1 {
+
+    display: flex;
+    flex-flow:wrap;
+    width:100%;
+    height: 100%;
+    border-radius: 50px;
+    
+    }
+
+.contnatBox1 {
+   
+    padding-top: 3em ;
+    font-size: 25px;
+    /* border: 2px solid blue; */
+    justify-content: left;
+  
+}
+
+.contnatBox1 p{
+  padding: 10px 3px 4px 2px ;
+}
+
+.contnatBox2{
+    /* background-color: aqua; */
+    margin: auto;
+    font-size: 30px;
+
+
+}
+.contnatBox2 input[type="number"]{
+    width: 40px;
+    height: 30px;
+    font-size: 20px;
+}
+
+/* last box here total all items */
+
+/* 
+<div class="Main_Outer_div">
+<div class="Main_totaldiv">
+    <div class="total_heading" > </div>
+    <div class="total_cont"> </div>
+</div>
+
+</div> */
+
+.Main_Outer_div{
+
+    
+  
+    /* background-color: rgba(243, 68, 68, 0.897); */
+    margin: 6em 3px 10px 4px ;
+    /* box-shadow: 0px -20px 30px #dd5454a1; */
+
+    /* box-shadow: 5px 3px 40px 2px rgba(243, 188, 68, 0.521) ; */
+    border-top: 2px solid gray;
+
+}
+.Main_totaldiv{
+
+ 
+
+display: grid;
+grid-template-columns: 1fr 1fr;
+width: 70%;
+height: auto;
+margin-left: 18em;
+padding: 20px;
+
+
+}
+.total_heading{
+    /* border: 2px solid rgb(240, 31, 17); */
+    font-size: 30px;
+    width: 56%;
+  
+}
+.total_cont{
+    /* border: 2px solid rgb(7, 10, 187); */
+    text-align: right;
+    font-size: 30px;
+    width: 65%;
+    
+}
+
+
